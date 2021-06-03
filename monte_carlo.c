@@ -49,7 +49,7 @@ float mc_pi(int i)
       c+=1;
     }
   }
-  c=c*4;
+  c=4*c;
   return (float)c /i;
 }
 
