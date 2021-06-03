@@ -32,5 +32,5 @@ float wallis_pi(int i)
     n=n*(4.0*j*j)/(4.0*j*j-1);
   }
   n=2*n;
-  return n:
+  return n;
 }
