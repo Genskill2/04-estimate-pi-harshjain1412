@@ -45,8 +45,9 @@ float mc_pi(int i)
   {
     float x = frandom();
     float y = frandom();
-    if((x*x+y*y)<=1)
+    { if((x*x+y*y)<=1)
       c+=1;
+    }
   }
   c=c*4;
   return (float)c /i;
